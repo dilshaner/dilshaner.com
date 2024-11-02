@@ -1,0 +1,391 @@
+baseURL: "dilshaner.com"
+languageCode: "en-us"
+title: "Dilshaner.com"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blog
+      weight: 1
+    - identifier: gallery
+      name: Gallery
+      title: Blog posts
+      url: /gallery
+      weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Dilshaner.com"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/about.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Dilshaner.com" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Dilshan Eranda"
+    subtitle: "Not Just Another Tech Enthusiast!"
+    content: "An undergraduate software engineer based in Sri Lanka. I’m passionate about developing practical applications and exploring the field of crypto & Blockchain insdustry."
+    
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Resume"
+      url: "https://www.dropbox.com/scl/fi/opln5ya0qemj8xq71bazt/Dilshan-Eranda.pdf?rlkey=vewbt6q472wq71721u663i14r&st=j9ejvoqi&dl=1"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/dilshaner
+        - icon: fab fa-x-twitter
+          url: https://x.com/dilshaner
+        - icon: fab fa-youtube
+          url: https://www.youtube.com/@dilshanerst
+        - icon: fab fa-stack-overflow
+          url: https://stackoverflow.com/users/23432463/dilshaner
+        - icon: fab fa-telegram
+          url: https://t.me/dilshaner
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/dilshaner
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/about.png"
+    content: 
+      I am an undergraduate student with a focus on web development, and I have a strong background in cryptocurrency and blockchain technology. I’m particularly interested in decentralized finance (DeFi) and have a passion for creating engaging content about crypto.
+
+       Currently, I’m an open-source software contributor and an ambassador for various projects. I also enjoy sharing knowledge through content creation. As a student at the University of Colombo, I’m excited to explore the intersections of technology and innovation.
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        - "Rust"
+        - "PHP"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "RARA,BKX,Algovest,Polimec Protocol,Acurast"
+        company: "Community Manager and Ambassdor"
+        companyUrl: "https://example.com"
+        date: "Jan 2022 - May 2024"
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://www.polimec.org"
+        content: "Helped create and connect with communities around blockchain projects, making it easier for people to get involved and learn."
+
+      - job: "Airdrop LK"
+        company: "Content Creator"
+        companyUrl: "https://airdroplk.lk"
+        date: "Jan 2022 - present"
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://airdroplk.lk"
+        content: Focus on educating people about cryptocurrency airdrops, providing free information and resources. All content is free and aimed at increasing knowledge in the community.
+
+
+  
+      
+      - job: "Talkz.lk"
+        company: "Founder"
+        companyUrl: "https://example.com"
+        date: "Aug 2022 - present"
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://talkz.lk"
+        content: "Established a direct-to-consumer platform providing authentic mobile accessories at affordable prices to Sri Lankan customers."
+      
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Bachelor of Information Technology (External)"
+        school:
+          name: "University of Colombo School of Computing, UCSC"
+          url: "https://cmb.ac.lk/"
+        date: "2024 - present"
+        content: I'm currently enrolled in the Bachelor of Information Technology degree program, developing foundational skills and knowledge in areas such as software development, cybersecurity, and data management.
+      
+      - title: "Advanced Level (A/L) Examination"
+        school: 
+          name: "Sri Palee College Horana"
+          url: "https://en.wikipedia.org/wiki/Sri_Palee_College"
+        date: "2019 - 2022"
+        content: I studied Combined Maths, Physics, and Chemistry in the mathematical stream.
+         
+        featuredLink:
+          enable: false
+          name: "My academic record"
+          url: "https://en.wikipedia.org/wiki/Sri_Palee_College"
+
+      - title: "Ordinaly Level (A/L) Examination"
+        school: 
+          name: "Mahinda rajapaksha College , Homagama"
+          url: "https://mrcm.lk/"
+        date: "2013 - 2018"
+        content: Successfully completed the all subjects. Including A,B passes for Mathematics,Science and English
+        featuredLink:
+          enable: false
+          name: "My academic record"
+          url: "https://example.com"
+
+
+
+  # Achievements
+  achievements:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+        image: /images/achievment.jpg
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+        image: /images/achievment.jpg
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/achievment.jpg
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Talkz.lk
+        content: An e-commerce platform offering high-quality mobile accessories at affordable prices in Sri Lanka, sourcing directly from manufacturers to ensure authenticity.
+        image: "talkz.webp"
+        featured:
+          name: Shop Now
+          link: https://hugo-profile.netlify.app
+        badges:
+          - "Talkz"
+          - "Accessories"
+          - "ecommerce"
+        links:
+          - icon: fa fa-envelope
+            url: https://www.talkz.lk/about-us
+          - icon: fab fa-twitter
+            url: https://twitter.com/talkzlk
+
+      - title: Shipping Label Generator
+        content: A tool designed for small businesses that generates shipping labels for products, capable of creating labels in bulk. Each label is formatted to fit four on a single A4 sheet and includes the option to add barcodes for enhanced tracking.
+        image: "shipping.webp"
+        featured:
+          name: Try Now
+          link: https://projects.talkz.lk/label/
+        badges:
+          - "Shipping Label"
+          - "PHP"
+        links:
+
+
+      - title: Shipping Label Generator Plugin for WooCommerce
+        content: A WordPress plugin for WooCommerce that allows users to generate shipping labels with ease. By clicking the "Print Label" button, the plugin automatically creates a PDF ready for printing, streamlining the shipping process for online stores.
+        image: "ShippingWP.webp"
+        featured:
+          name: Try Now
+          link: https://github.com/dilshaner/ShippingLabel
+        badges:
+          - "Shipping Label"
+          - "WooCommerce"
+          - "wordpress"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/dilshaner/ShippingLabel
+
+
+      - title: COD Return Submit/finder
+        content: A privacy-respecting tool designed for small businesses to manage cash-on-delivery (COD) orders. This tool allows business owners to flag customers who have a history of returning products after placing orders. When a new order is received, owners can quickly check the customer’s status to determine if they have been flagged for previous returns.
+        image: "COD.webp"
+        featured:
+          name: Try Now
+          link: https://projects.talkz.lk/cod/
+        badges:
+          - "COD"
+        links:
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: Let’s connect! I’m here for questions, insights, or just a friendly conversation.
+    btnName: Mail me
+    btnLink: mailto:dilshaner@zohomail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blog"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/dilshaner
+      linkedin: https://linkedin.com/in/dilshaner
+      twitter: https://twitter.com/dilshaner
+      instagram: https://instagram.com/dilshaner1
+      facebook: https://facebook.com/dilshaner
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
