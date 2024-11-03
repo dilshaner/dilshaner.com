@@ -132,8 +132,10 @@ params:
     subtitle: "Not Just Another Tech Enthusiast!"
     content: "An undergraduate software engineer based in Sri Lanka. I’m passionate about developing practical applications and exploring the field of crypto & Blockchain insdustry."
     
-    bottomImage:
+    bottomImage: 
       enable: true
+      image: "/about.png"
+      
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
