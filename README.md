@@ -1,6 +1,3 @@
-Here’s the complete article formatted in Markdown for you to copy and paste:
-
-```markdown
 # Setting Up Your Personal Portfolio and Blog with Hugo on Netlify
 
 Welcome to **Dilshaner.com**—a personal portfolio and blog site built using [Hugo](https://gohugo.io) with the **hugo-profile** theme. This guide will walk you through the entire process, from initializing the repository to deploying your site on Netlify with a custom domain.
@@ -24,7 +21,7 @@ This website showcases a portfolio with sections for **About**, **Experience**, 
    Start by cloning this repository to your local machine:
 
    ```bash
-   git clone https://github.com/<your-github-username>/dilshaner.com.git
+   git clone https://github.com/dilshaner/dilshaner.com.git
    cd dilshaner.com
    ```
 
