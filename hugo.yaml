@@ -131,11 +131,9 @@ params:
     title: "Dilshan Eranda"
     subtitle: "Not Just Another Tech Enthusiast!"
     content: "An undergraduate software engineer based in Sri Lanka. I’m passionate about developing practical applications and exploring the field of crypto & Blockchain insdustry."
-    
-    bottomImage: 
-      enable: true
-      image: "/about.png"
-      
+    image: "/Hero.webp"
+    bottomImage:
+     enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
