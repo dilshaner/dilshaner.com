@@ -332,6 +332,20 @@ params:
           - "COD"
         links:
 
+      - title: OrderRadar-Chrome extension
+        content: A powerful Chrome extension designed for businesses to track customer phone numbers on WhatsApp Web. OrderRadar helps users identify returning customers, analyze order success rates, and prevent cash-on-delivery (COD) fraud. With an intuitive UI, local data storage, and offline functionality, this open-source tool enhances order management and decision-making.
+        image: "OrderRadar.webp"
+        featured:
+          name: Try Now
+          link: https://github.com/dilshaner/OrderRadar
+        badges:
+          - "Chrome extension"
+          - "JS"
+          - "Opensource"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/dilshaner/OrderRadar       
+
   #Contact
   contact:
     enable: true
