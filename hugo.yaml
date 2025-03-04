@@ -193,12 +193,12 @@ params:
 
       - job: "Airdrop LK"
         company: "Content Creator"
-        companyUrl: "https://airdroplk.lk"
+        companyUrl: "https://www.youtube.com/@AirdropLK"
         date: "Jan 2022 - present"
         featuredLink:
           enable: true
           name: "View the project"
-          url: "https://airdroplk.lk"
+          url: "https://www.youtube.com/@AirdropLK"
         content: Focus on educating people about cryptocurrency airdrops, providing free information and resources. All content is free and aimed at increasing knowledge in the community.
 
 
