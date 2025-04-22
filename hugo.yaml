@@ -284,7 +284,7 @@ params:
         image: "talkz.webp"
         featured:
           name: Shop Now
-          link: https://hugo-profile.netlify.app
+          link: https://talkz.lk/
         badges:
           - "Talkz"
           - "Accessories"
