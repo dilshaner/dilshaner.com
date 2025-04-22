@@ -321,6 +321,20 @@ params:
           - icon: fab fa-github
             url: https://github.com/dilshaner/ShippingLabel
 
+      - title: Shipping Label Generator Plugin for WooCommerce
+        content: A WordPress plugin for WooCommerce that allows users to generate shipping labels with ease. By clicking the "Print Label" button, the plugin automatically creates a PDF ready for printing, streamlining the shipping process for online stores.
+        image: "ShippingWP.webp"
+        featured:
+          name: Try Now
+          link: https://github.com/dilshaner/ShippingLabel
+        badges:
+          - "Shipping Label"
+          - "WooCommerce"
+          - "wordpress"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/dilshaner/ShippingLabel     
+
 
       - title: COD Return Submit/finder
         content: A privacy-respecting tool designed for small businesses to manage cash-on-delivery (COD) orders. This tool allows business owners to flag customers who have a history of returning products after placing orders. When a new order is received, owners can quickly check the customer’s status to determine if they have been flagged for previous returns.
