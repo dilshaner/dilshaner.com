@@ -321,19 +321,19 @@ params:
           - icon: fab fa-github
             url: https://github.com/dilshaner/ShippingLabel
 
-      - title: Shipping Label Generator Plugin for WooCommerce
-        content: A WordPress plugin for WooCommerce that allows users to generate shipping labels with ease. By clicking the "Print Label" button, the plugin automatically creates a PDF ready for printing, streamlining the shipping process for online stores.
-        image: "ShippingWP.webp"
+      - title: Superseed Odyssey 
+        content: Web-based 3D Multiplater game built with Three.js for Superseed Game contest
+        image: "superseed.webp"
         featured:
-          name: Try Now
-          link: https://github.com/dilshaner/ShippingLabel
+          name: Play Now
+          link: https://superseed-odyssey.dilshaner.com/
         badges:
-          - "Shipping Label"
-          - "WooCommerce"
-          - "wordpress"
+          - "Superseed"
+          - "Three.js"
+          - "Vibecode"
         links:
           - icon: fab fa-github
-            url: https://github.com/dilshaner/ShippingLabel     
+            url: https://github.com/dilshaner/superseed     
 
 
       - title: COD Return Submit/finder
