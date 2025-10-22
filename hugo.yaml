@@ -132,7 +132,7 @@ params:
     title: "Dilshan Eranda"
     subtitle: "Not Just Another Tech Enthusiast!"
     content: "An undergraduate software engineer based in Sri Lanka. I’m passionate about developing practical applications and exploring the field of crypto & Blockchain insdustry."
-    image: "/Hero.webp"
+    image: "/hero.webp"
     bottomImage:
      enable: true
     # roundImage: true # Make hero image circular | default false
@@ -279,6 +279,21 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+
+
+      - title: Superseed Odyssey 
+        content: Web-based 3D Multiplater game built with Three.js for Superseed Game contest
+        image: "superseed.webp"
+        featured:
+          name: Play Now
+          link: https://superseed-odyssey.dilshaner.com/
+        badges:
+          - "Superseed"
+          - "Three.js"
+          - "Vibecode"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/dilshaner/superseed   
       - title: Talkz.lk
         content: An e-commerce platform offering high-quality mobile accessories at affordable prices in Sri Lanka, sourcing directly from manufacturers to ensure authenticity.
         image: "talkz.webp"
@@ -295,17 +310,6 @@ params:
           - icon: fab fa-twitter
             url: https://twitter.com/talkzlk
 
-      - title: Shipping Label Generator
-        content: A tool designed for small businesses that generates shipping labels for products, capable of creating labels in bulk. Each label is formatted to fit four on a single A4 sheet and includes the option to add barcodes for enhanced tracking.
-        image: "shipping.webp"
-        featured:
-          name: Try Now
-          link: https://projects.talkz.lk/label/
-        badges:
-          - "Shipping Label"
-          - "PHP"
-        links:
-
 
       - title: Shipping Label Generator Plugin for WooCommerce
         content: A WordPress plugin for WooCommerce that allows users to generate shipping labels with ease. By clicking the "Print Label" button, the plugin automatically creates a PDF ready for printing, streamlining the shipping process for online stores.
@@ -319,32 +323,8 @@ params:
           - "wordpress"
         links:
           - icon: fab fa-github
-            url: https://github.com/dilshaner/ShippingLabel
+            url: https://github.com/dilshaner/ShippingLabel  
 
-      - title: Superseed Odyssey 
-        content: Web-based 3D Multiplater game built with Three.js for Superseed Game contest
-        image: "superseed.webp"
-        featured:
-          name: Play Now
-          link: https://superseed-odyssey.dilshaner.com/
-        badges:
-          - "Superseed"
-          - "Three.js"
-          - "Vibecode"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/dilshaner/superseed     
-
-
-      - title: COD Return Submit/finder
-        content: A privacy-respecting tool designed for small businesses to manage cash-on-delivery (COD) orders. This tool allows business owners to flag customers who have a history of returning products after placing orders. When a new order is received, owners can quickly check the customer’s status to determine if they have been flagged for previous returns.
-        image: "COD.webp"
-        featured:
-          name: Try Now
-          link: https://projects.talkz.lk/cod/
-        badges:
-          - "COD"
-        links:
 
       - title: OrderRadar-Chrome extension
         content: A powerful Chrome extension designed for businesses to track customer phone numbers on WhatsApp Web. OrderRadar helps users identify returning customers, analyze order success rates, and prevent cash-on-delivery (COD) fraud. With an intuitive UI, local data storage, and offline functionality, this open-source tool enhances order management and decision-making.
@@ -359,6 +339,20 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/dilshaner/OrderRadar       
+  
+      - title: Crypto Kalliya Instant 
+        content: Python script automates the process of delivering real-time cryptocurrency news updates in Sinhala.
+        image: "kalliya-Instant.webp"
+        featured:
+          name: See in Action
+          link: https://t.me/cryptokalliyaANN/
+        badges:
+          - "CryptoNews"
+          - "Sinhala"
+          - "Automation"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/dilshaner/kalliya-Instant
 
   #Contact
   contact:
