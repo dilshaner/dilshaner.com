@@ -263,7 +263,7 @@ params:
         image: "cryptonite.webp"
       - title: AirdropLK Blog
         content: Built and ran a free cryptocurrency education blog for two years, helping bridge a major knowledge gap in the local crypto community.
-        url: https://example.com
+        url: https://web.archive.org/web/20240522082812/https://airdroplk.com/
         image: "airdroplk.webp"
 
   # projects
